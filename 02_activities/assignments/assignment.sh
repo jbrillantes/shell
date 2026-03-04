@@ -64,6 +64,7 @@ rf -rf ./data
 >>>>>>> ea20676d33161a6f4d0fcd3c4f7aa5360f0f4309
 
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
+mkdir -p data/inventory.txt
 find ./data/processed -mindepth 2 -type f > ./data/inventory.txt
 
 ###########################################
